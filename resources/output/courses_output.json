@@ -1,0 +1,222 @@
+[
+    {
+        "id": 0,
+        "name": "MÚSICA – Opção: Violino ou Viola (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 1,
+        "name": "A Distância - BACHARELADO INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA (BICT) – Ênfase 2: Gestão Ambiental e Sustentabilidade - Noturno - POLO Chapecó"
+    },
+    {
+        "id": 2,
+        "name": "ADMINISTRAÇÃO PÚBLICA (Bacharelado) - Noturno - Balneário Camboriú"
+    },
+    {
+        "id": 3,
+        "name": "ENGENHARIA DE SOFTWARE (Bacharelado) - Noturno - Ibirama"
+    },
+    {
+        "id": 4,
+        "name": "A Distância - LICENCIATURA EM PEDAGOGIA NA MODALIDADE EAD - Noturno - POLO Criciúma"
+    },
+    {
+        "id": 5,
+        "name": "ENGENHARIA DE ALIMENTOS Bacharelado) - Vespertino e Noturno -Pinhalzinho"
+    },
+    {
+        "id": 6,
+        "name": "MODA – (Bacharelado) Vespertino e Noturno - Florianópolis"
+    },
+    {
+        "id": 7,
+        "name": "FISIOTERAPIA (Bacharelado) - Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 8,
+        "name": "CIÊNCIAS ECONÔMICAS (Bacharelado) - Matutino - Florianópolis"
+    },
+    {
+        "id": 9,
+        "name": "ENGENHARIA DA PESCA (Bacharelado) - Integral - Laguna"
+    },
+    {
+        "id": 10,
+        "name": "BIBLIOTECONOMIA - Hab. Gestão da Informação (Bacharelado) - Vespertino - Florianópolis"
+    },
+    {
+        "id": 11,
+        "name": "MÚSICA – Opção: Violão (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 12,
+        "name": "ZOOTECNIA - Ênfase em Produção Animal Sustentável (Bacharelado) - Integral - Chapecó"
+    },
+    {
+        "id": 13,
+        "name": "ENGENHARIA MECÂNICA (Bacharelado) - Integral - Joinville"
+    },
+    {
+        "id": 14,
+        "name": "ADMINISTRAÇÃO (Bacharelado) - Noturno - Florianópolis"
+    },
+    {
+        "id": 15,
+        "name": "CIÊNCIAS CONTÁBEIS (Bacharelado) - Noturno - Ibirama"
+    },
+    {
+        "id": 16,
+        "name": "ARQUITETURA E URBANISMO (Bacharelado) - Integral - Laguna"
+    },
+    {
+        "id": 17,
+        "name": "ENG. AMBIENTAL E SANITÁRIA (Bacharelado) - Matutino e Vespertino - Lages"
+    },
+    {
+        "id": 18,
+        "name": "ENG. DE PRODUÇÃO E SISTEMAS (Bacharelado) - Vespertino e Noturno - Joinville"
+    },
+    {
+        "id": 19,
+        "name": "DESIGN – Habilitação em Design Industrial (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 20,
+        "name": "HISTÓRIA (Licenciatura) - Noturno- Florianópolis"
+    },
+    {
+        "id": 21,
+        "name": "DESIGN – Habilitação em Design Gráfico (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 22,
+        "name": "ENGENHARIA ELÉTRICA (Bacharelado) - Integral - Joinville"
+    },
+    {
+        "id": 23,
+        "name": "EDUCAÇÃO FÍSICA (Licenciatura) - Noturno - Florianópolis"
+    },
+    {
+        "id": 24,
+        "name": "ADMINISTRAÇÃO (Bacharelado) - Vespertino - Florianópolis"
+    },
+    {
+        "id": 25,
+        "name": "FÍSICA (Licenciatura) - Matutino e Vespertino - Joinville"
+    },
+    {
+        "id": 26,
+        "name": "MÚSICA – Opção: Piano (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 27,
+        "name": "EDUCAÇÃO FÍSICA (Bacharelado) - Matutino - Florianópolis"
+    },
+    {
+        "id": 28,
+        "name": "ENFERMAGEM (Bacharelado) - Integral - Chapecó"
+    },
+    {
+        "id": 29,
+        "name": "ARTES VISUAIS (Licenciatura) Vespertino e Noturno - Florianópolis"
+    },
+    {
+        "id": 30,
+        "name": "MÚSICA  - (Licenciatura) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 31,
+        "name": "ENGENHARIA DE PETRÓLEO (Bacharelado) - Integral - Balneário Camboriú"
+    },
+    {
+        "id": 32,
+        "name": "CIÊNCIA DA COMPUTAÇÃO (Bacharelado) - Integral - Joinville"
+    },
+    {
+        "id": 33,
+        "name": "MÚSICA – Opção: Violoncelo (Bacharelado) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 34,
+        "name": "PEDAGOGIA (Licenciatura) - Noturno - Florianópolis"
+    },
+    {
+        "id": 35,
+        "name": "MATEMÁTICA (Licenciatura) - Matutino - Joinville"
+    },
+    {
+        "id": 36,
+        "name": "ADMINISTRAÇÃO PÚBLICA (Bacharelado) - Noturno - Florianópolis"
+    },
+    {
+        "id": 37,
+        "name": "ENGENHARIA FLORESTAL (Bacharelado) - Matutino e Vespertino -Lages"
+    },
+    {
+        "id": 38,
+        "name": "ARTES VISUAIS (Bacharelado) Vespertino e Noturno - Florianópolis"
+    },
+    {
+        "id": 39,
+        "name": "ENGENHARIA CIVIL (Bacharelado) - Integral – Joinville"
+    },
+    {
+        "id": 40,
+        "name": "ENGENHARIA FLORESTAL (Bacharelado) - Matutino e Vespertino - Lages"
+    },
+    {
+        "id": 41,
+        "name": "MEDICINA VETERINÁRIA (Bacharelado) - Matutino e Vespertino - Lages"
+    },
+    {
+        "id": 42,
+        "name": "AGRONOMIA (Bacharelado) - Matutino e Vespertino - Lages"
+    },
+    {
+        "id": 43,
+        "name": "QUÍMICA (Licenciatura) - Matutino e Vespertino - Joinville"
+    },
+    {
+        "id": 44,
+        "name": "A Distância - LICENCIATURA EM PEDAGOGIA NA MODALIDADE EAD - Noturno - POLO Ibirama"
+    },
+    {
+        "id": 45,
+        "name": "GEOGRAFIA (Licenciatura) - Vespertino- Florianópolis"
+    },
+    {
+        "id": 46,
+        "name": "A Distância - BACHARELADO INTERDISCIPLINAR EM CIÊNCIA E TECNOLOGIA (BICT) – Ênfase 1: Metodologias e Tecnologias Aplicadas à Educação a Distância - Noturno - POLO de Criciúma"
+    },
+    {
+        "id": 47,
+        "name": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - Noturno - Joinville"
+    },
+    {
+        "id": 48,
+        "name": "ENGENHARIA DE ALIMENTOS Bacharelado) - Vespertino e Noturno - Pinhalzinho"
+    },
+    {
+        "id": 49,
+        "name": "SISTEMAS DE INFORMAÇÃO (Bacharelado) - Noturno - São Bento do Sul"
+    },
+    {
+        "id": 50,
+        "name": "ENG. DE PRODUÇÃO - HABILITAÇÃO MECÂNICA (Bacharelado) - Vespertino e Noturno - S. Bento do Sul"
+    },
+    {
+        "id": 51,
+        "name": "ADMINISTRAÇÃO PÚBLICA (Bacharelado) - Matutino - Florianópolis"
+    },
+    {
+        "id": 52,
+        "name": "HISTÓRIA (Bacharelado) - Noturno - Florianópolis"
+    },
+    {
+        "id": 53,
+        "name": "TEATRO (Licenciatura) Matutino e Vespertino - Florianópolis"
+    },
+    {
+        "id": 54,
+        "name": "ENGENHARIA CIVIL (Bacharelado) - Matutino - Ibirama"
+    }
+]
