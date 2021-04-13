@@ -1,5 +1,5 @@
 import connectDB from "../../../../middlewares/mongodb";
-import Candidates from "../../../../models/Candidate";
+import Candidates from "../../../../models/candidate";
 import Courses from "../../../../models/course";
 import _ from "lodash";
 
