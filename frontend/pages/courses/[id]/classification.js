@@ -62,7 +62,7 @@ const Classification = () => {
           {results.course && results.classification && (
             <div>
               <p className={styles.description}>
-                <Link href="/search?list=[id]" as={`/search?list=${list}`}>
+                <Link href={`/search?list=${list}`}>
                   <a>&larr; {results.course.name}</a>
                 </Link>
               </p>

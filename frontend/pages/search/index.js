@@ -31,7 +31,7 @@ const Classification = () => {
     },
   ];
 
-  if (!lists[list]) list = 0;
+  if (!lists[list]) return <div></div>;
 
   return (
     <div className={styles.container}>
