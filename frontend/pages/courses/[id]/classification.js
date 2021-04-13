@@ -66,6 +66,10 @@ const Classification = () => {
                   <a>&larr; {results.course.name}</a>
                 </Link>
               </p>
+              <p style={{ textAlign: "center" }}>
+                Candidatos com inscrição indeferida por qualquer motivo não
+                estão inclusos.
+              </p>
             </div>
           )}
         </div>
