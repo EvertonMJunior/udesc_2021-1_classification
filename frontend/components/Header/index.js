@@ -19,6 +19,12 @@ const Header = () => (
         `,
       }}
     />
+
+    <script
+      data-ad-client="ca-pub-1631625563798496"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
   </Head>
 );
 
