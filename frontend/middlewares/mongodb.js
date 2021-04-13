@@ -1,31 +1,46 @@
 import mongoose from "mongoose";
 import "dotenv/config";
 
-const options = {
-  useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  authSource: "admin",
-  useFindAndModify: "false",
+const readyStates = {
+  disconnected: 0,
+  connected: 1,
+  connecting: 2,
+  disconnecting: 3,
 };
 
-// Create cached connection variable
-const connection = {};
+let pendingPromise = null;
 
-const DB_URI = process.env.MONGO_URL;
+// https://hoangvvo.com/blog/migrate-from-express-js-to-next-js-api-routes/
+const withDb = (fn) => async (req, res) => {
+  const next = () => {
+    return fn(req, res);
+  };
 
-const connectDb = (handler) => async (req, res) => {
-  if (connection.isConnected) {
-    return handler(req, res);
+  const { readyState } = mongoose.connection;
+
+  // TODO: May need to handle concurrent requests
+  // with a little bit more details (disconnecting, disconnected etc).
+  if (readyState === readyStates.connected) {
+    return next();
+  } else if (pendingPromise) {
+    // Wait for the already pending promise if there is one.
+    await pendingPromise;
+    return next();
   }
+
+  pendingPromise = mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  });
+
   try {
-    const dbConnection = await mongoose.connect(DB_URI, options);
-    connection.isConnected = dbConnection.connections[0].readyState;
-  } catch (err) {
-    logger.error(`error connecting to db ${err.message || err}`);
+    await pendingPromise;
+  } finally {
+    pendingPromise = null;
   }
-  return handler(req, res);
+
+  next();
 };
 
-export default connectDb;
+export default withDb;
