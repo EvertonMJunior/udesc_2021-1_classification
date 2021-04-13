@@ -32,6 +32,9 @@ const withDb = (fn) => async (req, res) => {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
+    maxIdleTimeMS: 10000,
+    serverSelectionTimeoutMS: 10000,
+    socketTimeoutMS: 20000,
   });
 
   try {
