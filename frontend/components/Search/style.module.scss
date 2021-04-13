@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+.results {
+  list-style: none;
+  overflow: hidden;
+  margin: px 0 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.result {
+  background: #eeeeee;
+  color: #000000;
+  margin: 0 0 9px;
+  padding: 18px;
+}
+
+.result a {
+  color: #000000;
+}
