@@ -44,6 +44,7 @@ const handler = async (req, res) => {
       $match: {
         course: id,
         list_id: list,
+        situation: "DEFERIDO",
       },
     },
     {
